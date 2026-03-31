@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuro-Link Portal | Brainwave Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="canvas-container"></div>
+    
+    <div class="glass-container">
+        <header>
+            <h1 class="glitch" data-text="NEURO-LINK">NEURO-LINK</h1>
+            <p class="subtitle">Next-Gen Brainwave Analysis Portal</p>
+        </header>
+
+        <main>
+            <div id="brain-visualizer">
+                <!-- 3D Brain will be rendered here -->
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="label">System State</span>
+                    <span class="value" id="system-status">Standby</span>
+                </div>
+                <div class="stat-card">
+                    <span class="label">Neural Sync</span>
+                    <span class="value cyan">88%</span>
+                </div>
+            </div>
+
+            <button id="launch-btn" class="cyber-button">
+                <span class="btn-content">INITIALIZE STREAMLIT</span>
+                <span class="btn-glitch"></span>
+            </button>
+        </main>
+
+        <footer>
+            <div class="bot-info">
+                <span class="bot-dot"></span>
+                <span class="bot-text">Yogi AI // Ready to Launch</span>
+            </div>
+            <div class="version">V4.0.1 // ALPHA</div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
