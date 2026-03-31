@@ -1,0 +1,21 @@
+# YOLOv8 Dataset Configuration
+
+# Path to dataset (relative to where train.py is run)
+path: ./dataset
+
+# Train and Validation folders (relative to 'path')
+train: images/train
+val: images/val
+
+# Non-Generic, Real World Yoga Classes
+names:
+  0: Tree Pose (Vrikshasana)
+  1: Warrior II (Virabhadrasana II)
+  2: Downward Dog (Adho Mukha Svanasana)
+  3: Cobra (Bhujangasana)
+  4: Plank (Phalakasana)
+  5: Gyan Mudra
+  6: Prana Mudra
+  7: Prithvi Mudra
+  8: Varun Mudra
+  9: Surya Mudra

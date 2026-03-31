@@ -1,0 +1,23 @@
+# Node
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Media and Datasets
+screenshots/
+dataset/
+/Round2_Submission/
+/Submission/
+/predictions/
+/runs/
+
+# Explicitly allow yoga-ai-web (redundant but safe)
+!yoga-ai-web/

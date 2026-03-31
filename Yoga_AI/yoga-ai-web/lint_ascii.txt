@@ -1,0 +1,29 @@
+
+> yoga-ai-web@0.1.0 lint
+> eslint
+
+
+C:\Users\ASUS\OneDrive\Desktop\Yoga_AI\yoga-ai-web\components\BioAnalyticsPanel.tsx
+  114:58  warning  'label' is defined but never used                                                                                    @typescript-eslint/no-unused-vars
+  118:21  error    Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free  @typescript-eslint/ban-ts-comment
+
+C:\Users\ASUS\OneDrive\Desktop\Yoga_AI\yoga-ai-web\components\TopBar.tsx
+   2:27  warning  'Zap' is defined but never used                                                                                                                                                                                                                                                          @typescript-eslint/no-unused-vars
+  24:25  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\ASUS\OneDrive\Desktop\Yoga_AI\yoga-ai-web\components\YogaCanvas.tsx
+   23:8   warning  'BottomOverlay' is defined but never used                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+   41:12  warning  'feedback' is assigned a value but never used                                                                                                                                                                                                           @typescript-eslint/no-unused-vars
+   42:12  warning  'logs' is assigned a value but never used                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+   67:11  warning  'particlesRef' is assigned a value but never used                                                                                                                                                                                                       @typescript-eslint/no-unused-vars
+   84:12  warning  'level' is assigned a value but never used                                                                                                                                                                                                              @typescript-eslint/no-unused-vars
+   85:12  warning  'levelProgress' is assigned a value but never used                                                                                                                                                                                                      @typescript-eslint/no-unused-vars
+   86:12  warning  'warningMsg' is assigned a value but never used                                                                                                                                                                                                         @typescript-eslint/no-unused-vars
+   88:12  warning  'namasteHoldTime' is assigned a value but never used                                                                                                                                                                                                    @typescript-eslint/no-unused-vars
+  362:17  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+  364:17  warning  Unused eslint-disable directive (no problems were reported from '@typescript-eslint/no-explicit-any')
+  945:8   warning  React Hook useEffect has missing dependencies: 'speak' and 'takeScreenshot'. Either include them or remove the dependency array. Outer scope values like 'analyzeFace' aren't valid dependencies because mutating them doesn't re-render the component  react-hooks/exhaustive-deps
+
+✖ 15 problems (1 error, 14 warnings)
+  0 errors and 2 warnings potentially fixable with the `--fix` option.
+

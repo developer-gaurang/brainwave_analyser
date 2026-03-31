@@ -1,0 +1,12 @@
+# YOLOv8 Dataset Configuration
+
+# Path to dataset (relative to where train.py is run)
+path: ./dataset
+
+# Train and Validation folders (relative to 'path')
+train: images/train
+val: images/val
+
+# Class Names
+names:
+  0: YogaPose
